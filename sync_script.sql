@@ -1,0 +1,7 @@
+CREATE DATABASE prueba_sync;
+USE prueba_sync;
+
+CREATE TABLE texts(
+id INT PRIMARY KEY NOT NULL,
+record VARCHAR(200) NOT NULL
+);
